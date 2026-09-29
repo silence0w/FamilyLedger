@@ -1,0 +1,11 @@
+{
+  "name": "familyledger",
+  "version": "1.0.0",
+  "description": "家庭账本 · uni-app(Vue3) + SQLite 安卓记账 App",
+  "private": true,
+  "scripts": {
+    "lint:js": "node scripts/check-syntax.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

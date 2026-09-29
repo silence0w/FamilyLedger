@@ -1,0 +1,29 @@
+# 平台运行时（本地数据，禁止入库）
+.workbuddy/
+**/.workbuddy/
+
+# 构建产物
+unpackage/
+**/node_modules/
+**/dist/
+**/target/
+**/.flattened-pom.xml
+
+# 证书 / 密钥
+deploy/.env
+certs/
+*.key
+*.keystore
+
+# IDE / 操作系统
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.tmp
+
+# HBuilderX 本地配置
+.hbuilderx/

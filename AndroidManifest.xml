@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.familyledger.app">
+
+    <!-- 家庭账本 · 自定义清单（只保留存储模型开关）
+         ============================================================
+         2026-09-26：通知栏提醒链路（精确闹钟 + 原生静态 BroadcastReceiver）已按用户要求
+         整体移除，原先为此声明的 SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM 权限与
+         FamilyLedgerReminderReceiver / FamilyLedgerBootReceiver 两个 receiver 一并删除，
+         避免系统把本应用当作「需要后台运行 / 需要精确闹钟」的应用而弹出额外授权提示。
+
+         保留 android:requestLegacyExternalStorage="true"：Android 10（含套壳鸿蒙等
+         Android 10 底座机型）仍沿用旧版存储模型，导入 / 导出时可由代码按需申请传统
+         存储权限；Android 11+ 继续走 MANAGE_EXTERNAL_STORAGE 引导。 -->
+    <application android:requestLegacyExternalStorage="true" />
+</manifest>

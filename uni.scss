@@ -1,0 +1,24 @@
+/* =========================================================
+ * 家庭账本 · uni-app 全局 SCSS 变量
+ * 主题色与 HTML 版保持一致
+ * ========================================================= */
+
+/* 主色（涨/支出 = 红，收入 = 绿，符合国内记账习惯） */
+$fl-red: #C20C0C;
+$fl-red-dark: #A50A0A;
+$fl-red-light: #E64C4C;
+$fl-green: #1BA784;
+$fl-border: #ececec;
+$fl-bg: #f5f5f5;
+
+/* uni-app 内置变量（保持默认，兼容组件库） */
+$uni-color-primary: #C20C0C;
+$uni-color-success: #1BA784;
+$uni-color-warning: #F0B429;
+$uni-color-error: #C20C0C;
+
+$uni-text-color: #333;
+$uni-text-color-inverse: #fff;
+$uni-text-color-grey: #999;
+$uni-bg-color: #f5f5f5;
+$uni-border-color: #ececec;
